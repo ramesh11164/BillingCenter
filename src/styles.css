@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+/* Show it is fixed to the top */
+body {
+   /* min-height: 75rem;*/
+    padding-top: 4.5rem;
+  }
+  .marg-zero{
+margin: 0px !important;
+  }
+  .side-nav-fixed{
+    position: fixed !important;
+    width: 17%;
+  }
+  .content-screen-ht{
+    min-height: 25rem;
+  }
+  .page-header{
+    color: #0c5460;
+    background-color: #d5d6d6;
+    border-color: #ffffff !important;;
+  }
+  .list-group-item-info:hover{
+    color: #155724;
+    background-color: #c3e6cb;
+    cursor: pointer;
+  }
+  
+.sidenav {
+  /* height: 100%; */
+  width: 160px;
+  /* position: fixed !important; */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(189, 185, 185);
+  /* overflow-x: hidden;
+  padding-top: 20px; */
+}
